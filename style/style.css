@@ -7,6 +7,10 @@
     color: rgb(13, 19, 33);
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 /* style banner section */
 
 #banner{
@@ -55,10 +59,11 @@
 /* style reason section */
 
 #reason-container{
-    max-width: 946px;
-    margin: 0px auto;
+    background-image: linear-gradient(180deg, rgba(13, 19, 33, 0.02),rgba(255, 255, 254, 0));
+    max-width: 1140px;
+    margin: 70px auto;
     padding: 75px 90px;
-    margin-top: 70px;
+    border-radius: 16px;
 }
 #reason-container .title-container .title{
     font-size: 32px;
@@ -192,4 +197,37 @@
     opacity: 0.7;
 }
 
-/* style ispiration section */
+/* style inspiration section */
+
+#inspiration-container{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0%;
+    margin-bottom: 100px;
+}
+#inspiration-container h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    /* text-align: center; */
+    /* letter-spacing: 0%; */
+    margin-bottom: 24px;
+}
+#inspiration-container p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+#inspiration-container .video{
+    border-radius: 16px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+#inspiration-container .video iframe{
+    border-radius: 16px;
+}
+
+/* style current target section */
