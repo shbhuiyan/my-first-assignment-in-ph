@@ -202,16 +202,14 @@ button:hover{
 #inspiration-container{
     width: 1140px;
     margin: 0 auto;
-    text-align: center;
-    letter-spacing: 0%;
     margin-bottom: 100px;
 }
 #inspiration-container h1{
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    /* text-align: center; */
-    /* letter-spacing: 0%; */
+    text-align: center; 
+    letter-spacing: 0%;
     margin-bottom: 24px;
 }
 #inspiration-container p{
@@ -219,6 +217,8 @@ button:hover{
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 48px;
+    text-align: center; 
+    letter-spacing: 0%;
     opacity: 0.7;
 }
 #inspiration-container .video{
