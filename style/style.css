@@ -17,8 +17,10 @@
 }
 #banner .banner-container{
     width: 998px;
-    margin: 35px auto;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 #banner .banner-container img{
     margin-bottom: 30px;
@@ -45,16 +47,149 @@
     font-weight: 600;
     line-height: 17px;
     background-color: rgb(13, 19, 33);
-    padding: 21px 24px 21px 24px;
+    padding: 21px 24px;
     border-radius: 8px;
     margin-bottom: 42px;
 }
 
 /* style reason section */
 
-#reason{
+#reason-container{
     max-width: 946px;
-    height: 1233px;
-    border: 2px solid red;
     margin: 0px auto;
+    padding: 75px 90px;
+    margin-top: 70px;
 }
+#reason-container .title-container .title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#reason-container .title-container .subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 46px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#reason-container .reason-1{
+    width: 850px;
+    margin: 0 auto;
+    padding: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+#reason-container .reason-1 h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 15px;
+
+}
+#reason-container .reason-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+#reason-container .reason-1 .btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align:left;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 18px;
+    opacity: 0.7;
+}
+#reason-container .reason-2{
+    width: 850px;
+    margin: 0 auto;
+    padding: 46px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap: 10px;
+}
+#reason-container .reason-2 h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 15px;
+
+}
+#reason-container .reason-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+#reason-container .reason-2 .btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align:left;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 18px;
+    opacity: 0.7;
+}
+#reason-container .reason-3{
+    width: 850px;
+    margin: 0 auto;
+    padding: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+#reason-container .reason-3 h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 15px;
+
+}
+#reason-container .reason-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+#reason-container .reason-3 .btn{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align:left;
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 18px;
+    opacity: 0.7;
+}
+
+/* style ispiration section */
